@@ -1,6 +1,6 @@
 'use client'
 
-import ClientTable from '../components/clienttable';
+import ClientTable from '../components/client-table';
 import useSWR from 'swr';
 
 const ClientPage = () => {

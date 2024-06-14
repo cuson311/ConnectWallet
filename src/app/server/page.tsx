@@ -1,4 +1,4 @@
-import ServerTable from "../components/servertable"
+import ServerTable from "../components/server-table"
 async function getData() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     // The return value is *not* serialized
