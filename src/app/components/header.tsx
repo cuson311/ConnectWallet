@@ -18,7 +18,7 @@ function Header() {
             <Link href={"/client"} className='nav-link'>Client</Link>
             <Link href={"/server"} className='nav-link'>Server</Link>
             <Link href={"/wagmi"} className='nav-link'>Connect Wallet with Wagmi</Link>
-            <Link href={"/ethers"} className='nav-link'>Connect Wallet with Ether</Link>
+            {/* <Link href={"/ethers"} className='nav-link'>Connect Wallet with Ether</Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
